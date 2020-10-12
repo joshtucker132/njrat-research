@@ -2,6 +2,8 @@
 
 ## Important Links
 
+[Executable] https://github.com/brian8544/njRAT
+
 [Source Code] https://github.com/AliBawazeEer/RAT-NjRat-0.7d-modded-source-code
 
 [Cynet Report] (https://www.cynet.com/attack-techniques-hands-on/njrat-report-bladabindi/)
