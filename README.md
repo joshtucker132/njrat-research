@@ -37,7 +37,7 @@
 
 Unfortunately when I tried to run the injector on both Windows 10 and 7 VMs, the injector was unable to establish a C&C channel with the njRAT server. Therefore, I could not test out any of the RAT functionality or observe the C&C channel in real-time. I suspect that this was due to a port forwarding issue. I tried forwarding the port I was using for njRAT through VirtualBox, but that did not resolve the issue. Despite this block, I was still able to see the persistence features of the injector code. If I looked into the '%temp%' directory of my machine, it was clear that 'server.exe' had successfully copied itself over. (I determined that 'njrat.bmp' was not actually related to the malware and only reflecting my username.)
 
-![copying to temp](https://github.com/joshtucker132/njrat-research/blob/master/screenshots/copying-temp.png?raw=true)
+![copying to temp](https://github.com/joshtucker132/njrat-research/blob/master/screenshots/temp-copy.png?raw=true)
 
 I also examined the list of processes designated to run at startup and saw that the injector had created a hidden executable named after a Mutex. This Mutex was initiated immediately after running the injector to ensure a previous one is not already running.
 
